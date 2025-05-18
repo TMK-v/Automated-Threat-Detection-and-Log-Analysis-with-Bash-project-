@@ -1,0 +1,7 @@
+Daily Security Report - 2025-05-18
+=============================
+\nBlocked IPs:
+\nAll Geolocated Entries:
+203.0.113.45,1,United States
+198.51.100.25,1,Romania
+192.168.1.100,1,192.168.1.100

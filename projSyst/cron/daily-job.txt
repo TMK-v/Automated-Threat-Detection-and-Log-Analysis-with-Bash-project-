@@ -1,0 +1,3 @@
+# Add to crontab with: crontab cron/daily-job.txt
+
+0 2 * * * /path/to/log-analyzer.sh >> /var/log/log-analyzer-cron.log 2>&1
