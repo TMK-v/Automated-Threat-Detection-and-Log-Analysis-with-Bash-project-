@@ -9,7 +9,6 @@ mkdir -p ./logs
 
 while read -r IP COUNT; do
     if [[ -n "$IP" ]]; then
-        # Get response like "United States,8.8.8.8"
         RESPONSE=$(curl -s "$API_URL/$IP?fields=country,query")
         
         COUNTRY=$(echo "$RESPONSE" | cut -d',' -f1)
